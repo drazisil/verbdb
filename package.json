@@ -13,6 +13,7 @@
   "type": "module",
   "scripts": {
     "format": "npx prettier . --write",
+    "lint": "npx eslint . --config .eslintrc.json --ext .js,.jsx,.ts,.tsx",
     "test": "node --test --test-reporter spec --test-reporter-destination=stdout --test-reporter junit --test-reporter-destination=junit.xml"
   },
   "keywords": [
@@ -27,8 +28,8 @@
   "devDependencies": {
     "@types/node": "^20.11.28",
     "eslint": "^8.57.0",
-    "eslint-config-google": "^0.14.0",
     "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-jsdoc": "^48.2.1",
     "prettier": "3.2.5"
   }
 }
