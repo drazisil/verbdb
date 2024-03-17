@@ -13,7 +13,7 @@
   "type": "module",
   "scripts": {
     "format": "npx prettier . --write",
-    "test": "node --test"
+    "test": "node --test --test-reporter spec --test-reporter-destination=stdout --test-reporter junit --test-reporter-destination=junit.xml"
   },
   "keywords": [
     "database",
