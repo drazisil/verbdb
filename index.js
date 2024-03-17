@@ -14,6 +14,5 @@
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-export * as Types from "./lib/types.js";
 export { getTable } from "./lib/getTable.js";
 export { headTable } from "./lib/headTable.js";
