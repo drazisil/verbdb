@@ -1,6 +1,8 @@
 import { describe, it } from "node:test";
 // eslint-disable-next-line no-unused-vars
 import { headTable, Types } from "../index.js";
+import assert from "node:assert";
+import VerbDB from "../lib/database.js";
 
 describe("headTable()", () => {
 
@@ -32,6 +34,15 @@ describe("headTable()", () => {
         resultCount: 2,
         result: [],
         };
+        VerbDB.tables.set("users", {
+            name: "users",
+            columns: ["id", "name", "email"],
+            rows: [
+                { id: 1, name: "Alice", email: "" },
+                { id: 2, name: "Bob", email: "" },
+            ],
+            primaryKey: "id",
+            });
     
         // Act
         const result = headTable(table);
