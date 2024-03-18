@@ -14,6 +14,7 @@ describe("getTable()", () => {
       resultCount: 0,
       result: [],
     };
+    process.env.LANG = "en_US.UTF-8";
 
     // Act
     const result = getTable(table);
@@ -49,6 +50,7 @@ describe("getTable()", () => {
         ],
         primaryKey: "id",
         });
+    process.env.LANG = "en_US.UTF-8";
 
     // Act
     const result = getTable(table);

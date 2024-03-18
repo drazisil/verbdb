@@ -15,6 +15,7 @@ describe("headTable()", () => {
         resultCount: 0,
         result: [],
         };
+        process.env.LANG = "en_US.UTF-8";
     
         // Act
         const result = headTable(table);
@@ -42,6 +43,7 @@ describe("headTable()", () => {
             ],
             primaryKey: "id",
             });
+            process.env.LANG = "en_US.UTF-8";
     
         // Act
         const result = headTable(table);
