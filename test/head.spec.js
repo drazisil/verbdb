@@ -1,7 +1,7 @@
 import { describe, it } from "node:test";
 import { headTable } from "../index.js";
 import assert from "node:assert";
-import VerbDB from "../lib/database.js";
+import VerbDB from "../lib/internal/database.js";
 
 describe("headTable()", () => {
 

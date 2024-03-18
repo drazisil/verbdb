@@ -1,7 +1,7 @@
 import assert from "node:assert";
 import { describe, it } from "node:test";
 import { getTable } from "../index.js";
-import VerbDB from "../lib/database.js";
+import VerbDB from "../lib/internal/database.js";
 
 describe("getTable()", () => {
   it("when called with a table that does not exist, should return a DBResult object, with an status set to 404, and an empty result key", () => {
