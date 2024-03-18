@@ -16,3 +16,4 @@
 
 export { getTable } from "./lib/getTable.js";
 export { headTable } from "./lib/headTable.js";
+export { parseLangEnv, getL18nString } from "./lib/text.js";
