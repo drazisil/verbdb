@@ -1,6 +1,6 @@
 {
   "name": "verbdb",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A lightweight JSON-based memory store using HTTP method verbs",
   "engines": {
     "node": ">=21.6.0"
