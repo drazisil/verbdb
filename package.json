@@ -29,7 +29,7 @@
     "@types/node": "^22.0.0",
     "eslint": "^9.0.0",
     "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-jsdoc": "^50.0.0",
+    "eslint-plugin-jsdoc": "^51.0.0",
     "prettier": "3.5.3"
   }
 }
